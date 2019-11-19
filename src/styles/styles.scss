@@ -26,6 +26,11 @@ img { /* stylelint-disable-line */
   max-width: 100%;
 }
 
+.video {
+  width: 600px;
+  height: 400px;
+}
+
 h1 { /* stylelint-disable-line */
   margin: $gutter 0;
   color: #fff;
@@ -51,3 +56,4 @@ main { /* stylelint-disable-line */
 @import "text";
 @import "button";
 @import "apod";
+@import "favPage";

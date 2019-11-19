@@ -15,7 +15,6 @@ const LOCALSTORAGE_KEY = 'favourite_spacephotos';
  * @returns {array} fylki af myndum eða tóma fylkið ef ekkert vistað.
  */
 export function load() {
-
 }
 
 /**
@@ -26,8 +25,7 @@ export function load() {
  * @param {string} text texti fyrir myndina/myndbandið.
  * @param {string} title titill fyrir myndina/myndbandið.
  */
-export function save(type, mediaUrl, text, title) {
-
+export function save(type, mediaUrl, text, title) { // eslint-disable-line no-unused-vars
 }
 
 

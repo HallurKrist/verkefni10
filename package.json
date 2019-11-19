@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "eslint": "eslint ./src/**/*.js",
+    "eslintFix": "eslint --fix ./src/**/*.js",
     "rollup": "rollup -c",
     "rollup-watch": "rollup -c -w",
     "browser-sync": "browser-sync start --server --files index.html favourites.html ./dist/styles.css ./dist/bundle.js",
